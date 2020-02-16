@@ -1,0 +1,68 @@
+@import "./variables";
+@import "./general";
+.edit-form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login-back{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+   
+}
+
+.login-back a{
+    color: $subColor;
+    transition: all .3s ease-in-out;
+}
+.login-back:hover a{
+    color: $mainColor;
+} 
+.fa-home{
+    margin-right: 1rem;
+}
+.fa-arrow-left{
+    margin-right: 1rem;
+}
+label{
+    color: $black;
+    font-weight: $dankFont;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+textarea{
+    color: $subColor;
+    font-weight: $boldFont;
+    resize: none;
+    width: 40%;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 1px solid $black;
+    font-size: 2rem;
+}
+input[type=submit],.Btn{
+    background-color: $subColor;
+    padding: 1rem;
+    border:none;
+    color: $white;
+    transition: all .3s ease-in-out;
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 40%;
+}
+.Btn{
+    text-align: center;
+    background-color: $mainColor;
+   
+}
+.Btn a {
+    color: $white;
+}
+input[type=submit]:hover{
+    background-color: $mainColor;
+}

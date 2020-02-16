@@ -1,0 +1,28 @@
+.hero{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-header{
+        color: $mainColor;
+        font-size: 6rem;
+    }
+    &::before{
+        content: url(../../Imges/blob-shape.svg);
+        display: block;
+        position: absolute;
+        top:-120px;
+        right: -290px;
+        z-index: -1;
+    }
+    &::after{
+        content: url(../../Imges/blob-shape.svg);
+        display: block;
+        position: absolute;
+        bottom:-50px;
+        left: -300px;
+        z-index: -1;
+        
+    }
+}

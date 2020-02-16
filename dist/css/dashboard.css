@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden; }
+
+.full-img {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  color: #2c3e50; }
+
+.row {
+  width: 80%;
+  margin: 0 auto; }
+
+.edit a {
+  color: #ecf0f1; }
+
+.login-back {
+  font-size: 2rem;
+  margin-bottom: 1rem; }
+
+.login-back a {
+  color: #ff4e4a;
+  transition: all .3s ease-in-out; }
+
+.login-back:hover a {
+  color: #4ac6c6; }
+
+.fa-home {
+  margin-right: 1rem; }
+
+.post_name {
+  width: 30%;
+  border: 1px solid #ff4e4a; }
+
+.post_content {
+  width: 50%;
+  border: 1px solid #ff4e4a; }
+
+.post_edit, .post_delete {
+  width: 10%;
+  border: 1px solid #ff4e4a; }
+
+td {
+  text-align: center;
+  color: #4ac6c6;
+  border: 1px solid #2c3e50; }
+
+#edit {
+  background-color: #4ac6c6;
+  border: none;
+  color: #ecf0f1;
+  padding: 1rem 3rem;
+  cursor: pointer; }
+
+#delete {
+  background-color: #ff4e4a;
+  border: none;
+  color: #ecf0f1;
+  padding: 1rem 3rem;
+  cursor: pointer; }

@@ -1,0 +1,240 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden; }
+
+.full-img {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  color: #2c3e50; }
+
+.row {
+  width: 80%;
+  margin: 0 auto; }
+
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.login-back {
+  font-size: 2rem;
+  margin-bottom: 1rem; }
+
+.login-back a {
+  color: #ff4e4a;
+  transition: all .3s ease-in-out; }
+
+.login-back:hover a {
+  color: #4ac6c6; }
+
+.fa-home {
+  margin-right: 1rem; }
+
+.login-modal {
+  border: 1px solid #4ac6c6;
+  padding: 5rem; }
+
+.login-modal__logo {
+  width: 100px;
+  margin: 0 auto 3rem; }
+
+.login-header {
+  color: #4ac6c6;
+  font-weight: 300;
+  margin: 3rem 5rem; }
+
+.form {
+  display: flex;
+  flex-direction: column; }
+
+input[type=text], input[type=password] {
+  border: none;
+  background-color: #4ac6c6;
+  color: #ecf0f1;
+  font-family: "Nunito", sans-serif;
+  padding: 1rem; }
+
+input[type=text]::placeholder, input[type=password]::placeholder {
+  color: #ecf0f1;
+  font-family: "Nunito", sans-serif; }
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+  background-color: #ff4e4a; }
+
+input[type=password] {
+  margin-top: 1rem; }
+
+input[type=submit] {
+  background-color: #ff4e4a;
+  padding: 1rem;
+  border: none;
+  color: #ecf0f1;
+  transition: all .3s ease-in-out;
+  margin-top: 1rem;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #4ac6c6; }
+
+#emailwarning,
+#passwordwarning {
+  color: #ff4e4a;
+  font-size: 1.2rem;
+  width: 248px; }
+
+/* -------------------------------------------------------------------------- */
+/*                               DashBoard Style                              */
+/* -------------------------------------------------------------------------- */
+.edit a {
+  color: #ecf0f1; }
+
+.login-back {
+  font-size: 2rem;
+  margin-bottom: 1rem; }
+
+.login-back a {
+  color: #ff4e4a;
+  transition: all .3s ease-in-out; }
+
+.login-back:hover a {
+  color: #4ac6c6; }
+
+.fa-home {
+  margin-right: 1rem; }
+
+.post_name {
+  width: 30%;
+  border: 1px solid #ff4e4a; }
+
+.post_content {
+  width: 50%;
+  border: 1px solid #ff4e4a; }
+
+.post_edit, .post_delete {
+  width: 10%;
+  border: 1px solid #ff4e4a; }
+
+td {
+  text-align: center;
+  color: #4ac6c6;
+  border: 1px solid #2c3e50; }
+
+#edit {
+  background-color: #4ac6c6;
+  border: none;
+  color: #ecf0f1;
+  padding: 1rem 3rem;
+  cursor: pointer; }
+
+#delete {
+  background-color: #ff4e4a;
+  border: none;
+  color: #ecf0f1;
+  padding: 1rem 3rem;
+  cursor: pointer; }
+
+/* -------------------------------------------------------------------------- */
+/*                                  edit page                                 */
+/* -------------------------------------------------------------------------- */
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden; }
+
+.full-img {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  color: #2c3e50; }
+
+.row {
+  width: 80%;
+  margin: 0 auto; }
+
+.edit-form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.login-back {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding: 2rem; }
+
+.login-back a {
+  color: #ff4e4a;
+  transition: all .3s ease-in-out; }
+
+.login-back:hover a {
+  color: #4ac6c6; }
+
+.fa-home {
+  margin-right: 1rem; }
+
+.fa-arrow-left {
+  margin-right: 1rem; }
+
+label {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem; }
+
+textarea {
+  color: #ff4e4a;
+  font-weight: 500;
+  resize: none;
+  width: 40%;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 1px solid #2c3e50;
+  font-size: 2rem; }
+
+input[type=submit], .Btn {
+  background-color: #ff4e4a;
+  padding: 1rem;
+  border: none;
+  color: #ecf0f1;
+  transition: all .3s ease-in-out;
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 40%; }
+
+.Btn {
+  text-align: center;
+  background-color: #4ac6c6; }
+
+.Btn a {
+  color: #ecf0f1; }
+
+input[type=submit]:hover {
+  background-color: #4ac6c6; }

@@ -1,0 +1,203 @@
+@import './variables';
+@import "./general";
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-back{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+   
+}
+.login-back a{
+    color: $subColor;
+    transition: all .3s ease-in-out;
+}
+.login-back:hover a{
+    color: $mainColor;
+} 
+.fa-home{
+    margin-right: 1rem;
+}
+.login-modal{
+    border: 1px solid #4ac6c6;
+    padding: 5rem;
+}
+.login-modal__logo{
+    width: 100px;
+    margin: 0 auto 3rem;
+}
+.login-header{
+    color: $mainColor;
+    font-weight: $lightFont;
+    margin: 3rem 5rem;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input[type = text],input[type = password]{
+    border:none;
+    background-color: $mainColor;
+    color: $white;
+    font-family: $mainFont;
+    padding:1rem;
+}
+input[type = text]::placeholder,input[type = password]::placeholder{
+    color: $white;
+    font-family: $mainFont;
+}
+input[type = text]:focus,input[type = password]:focus{
+    outline: none;
+    background-color: $subColor;
+}
+input[type = password]{
+    margin-top:1rem
+}
+input[type=submit]{
+    background-color: $subColor;
+    padding: 1rem;
+    border:none;
+    color: $white;
+    transition: all .3s ease-in-out;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: $mainColor;
+}
+#emailwarning,
+#passwordwarning{
+color: $subColor;
+font-size: 1.2rem;
+width:248px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               DashBoard Style                              */
+/* -------------------------------------------------------------------------- */
+.edit a{
+    color: $white;
+}
+.login-back{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+   
+}
+.login-back a{
+    color: $subColor;
+    transition: all .3s ease-in-out;
+}
+.login-back:hover a{
+    color: $mainColor;
+} 
+.fa-home{
+    margin-right: 1rem;
+}
+.post_name{
+    width: 30%;
+    border: 1px solid $subColor;
+}
+.post_content{
+    width: 50%;
+    border: 1px solid $subColor;  
+}
+.post_edit,.post_delete{
+    width: 10%;
+    border: 1px solid $subColor;  
+}
+td{
+    text-align: center;
+    color: $mainColor;
+    border: 1px solid $black;
+}
+#edit{
+    background-color: $mainColor;
+    border: none;
+    color: $white;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+#delete{
+    background-color: $subColor;
+    border: none;
+    color: $white;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  edit page                                 */
+/* -------------------------------------------------------------------------- */
+@import "./variables";
+@import "./general";
+.edit-form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login-back{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+   
+}
+
+.login-back a{
+    color: $subColor;
+    transition: all .3s ease-in-out;
+}
+.login-back:hover a{
+    color: $mainColor;
+} 
+.fa-home{
+    margin-right: 1rem;
+}
+.fa-arrow-left{
+    margin-right: 1rem;
+}
+label{
+    color: $black;
+    font-weight: $dankFont;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+textarea{
+    color: $subColor;
+    font-weight: $boldFont;
+    resize: none;
+    width: 40%;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 1px solid $black;
+    font-size: 2rem;
+}
+input[type=submit],.Btn{
+    background-color: $subColor;
+    padding: 1rem;
+    border:none;
+    color: $white;
+    transition: all .3s ease-in-out;
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 40%;
+}
+.Btn{
+    text-align: center;
+    background-color: $mainColor;
+   
+}
+.Btn a {
+    color: $white;
+}
+input[type=submit]:hover{
+    background-color: $mainColor;
+}

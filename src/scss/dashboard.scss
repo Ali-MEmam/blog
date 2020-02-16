@@ -1,0 +1,51 @@
+@import "./variables";
+@import "./general";
+.edit a{
+    color: $white;
+}
+.login-back{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+   
+}
+.login-back a{
+    color: $subColor;
+    transition: all .3s ease-in-out;
+}
+.login-back:hover a{
+    color: $mainColor;
+} 
+.fa-home{
+    margin-right: 1rem;
+}
+.post_name{
+    width: 30%;
+    border: 1px solid $subColor;
+}
+.post_content{
+    width: 50%;
+    border: 1px solid $subColor;  
+}
+.post_edit,.post_delete{
+    width: 10%;
+    border: 1px solid $subColor;  
+}
+td{
+    text-align: center;
+    color: $mainColor;
+    border: 1px solid $black;
+}
+#edit{
+    background-color: $mainColor;
+    border: none;
+    color: $white;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+#delete{
+    background-color: $subColor;
+    border: none;
+    color: $white;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
