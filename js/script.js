@@ -4,7 +4,7 @@
 var xhr = new XMLHttpRequest;
 var mainContainer = document.getElementById("main")
 var allBlogs = []
-xhr.open('GET','https://jsonplaceholder.typicode.com/posts');
+xhr.open('GET','https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/posts');
 xhr.send();
 
 /* -------------------------------------------------------------------------- */
