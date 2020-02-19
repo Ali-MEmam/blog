@@ -22,7 +22,7 @@ if (localStorage.getItem("editedObject") === null){
 /*                                   testing                                  */
 /* -------------------------------------------------------------------------- */
 var xhr = new XMLHttpRequest;
-    xhr.open("GET","https://jsonplaceholder.typicode.com/posts")
+    xhr.open("GET","https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/posts")
     xhr.send()
     xhr.onload = function(){
     if(this.status == 200){
