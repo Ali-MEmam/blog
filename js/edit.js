@@ -12,7 +12,7 @@ var editingPostArr = editingPost.split(",")
 /*             Http Request To Get The Editing Post From Database             */
 /* -------------------------------------------------------------------------- */
 var getTheEditPost = new XMLHttpRequest;
-getTheEditPost.open("Get","https://jsonplaceholder.typicode.com/posts/"+editingPostArr[0])
+getTheEditPost.open("Get","https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/posts/"+editingPostArr[0])
 getTheEditPost.send()
 getTheEditPost.onload= function(){
     /*Im Already Get The Data When User Clicked Edit And I Pushed it into The localStorage beside pushing The id only*/
@@ -43,7 +43,7 @@ if (localStorage.getItem("editedObject") === null){
 /* -------------------------------------------------------------------------- */
 sumbit.addEventListener("click",function(e){
     var xhr = new XMLHttpRequest;
-    xhr.open("PUT","https://jsonplaceholder.typicode.com/posts/"+editingPostArr[0]);
+    xhr.open("PUT","https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/posts/"+editingPostArr[0]);
     xhr.send();
     if(title.value.length === 0 || content.value.length === 0){
         document.getElementById("warning").innerHTML = "Sorry You Can't Let The Field Empty";
